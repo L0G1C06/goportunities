@@ -1,15 +1,8 @@
-package main 
+package main
 
-import (
-	"github.com/gin-gonic/gin"
-)
+import "github.com/L0G1C06/goportunities/router"
 
-func main(){
-	r := gin.Default()
-	r.GET("/", func(c *gin.Context){
-		c.JSON(200, gin.H{
-			"message": "Hello from root",
-		})
-	})
-	r.Run("0.0.0.0:8080")
+func main() {
+	// Initialize router
+	router.Initialize()
 }
