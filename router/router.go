@@ -5,13 +5,12 @@ import (
 )
 
 func Initialize(){
-	// router definition 
+	// Initialize Router 
 	router := gin.Default()
-	router.GET("/", func(c *gin.Context){
-		c.JSON(200, gin.H{
-			"message": "Hello from root",
-		})
-	})
-	// run API, access on "https://0.0.0.0:8080"
+
+	// Initialize Routes
+	initializeRoutes(router)
+	
+	// run the server, access on "https://0.0.0.0:8080"
 	router.Run("0.0.0.0:8080")
 }
