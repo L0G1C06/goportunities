@@ -7,6 +7,6 @@ import (
 
 func DeleteOpeningHandler(ctx *gin.Context){
 	ctx.JSON(http.StatusOK, gin.H{
-		"message": "GET Opening",
+		"message": "DELETE Opening",
 	}) 
 }
