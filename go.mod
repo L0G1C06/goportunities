@@ -7,7 +7,6 @@ require (
 	github.com/swaggo/files v1.0.1
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/swaggo/swag v1.16.3
-	github.com/webstradev/gin-pagination v1.0.1
 	gorm.io/driver/sqlite v1.5.4
 	gorm.io/gorm v1.25.6
 )
