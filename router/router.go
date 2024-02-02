@@ -9,7 +9,7 @@ func Initialize(){
 	router := gin.Default()
 
 	// Initialize Routes
-	initializeRoutes(router)
+	InitializeRoutes(router)
 	
 	// run the server, access on "https://0.0.0.0:8080"
 	router.Run("0.0.0.0:8080")

@@ -8,7 +8,7 @@ import (
 	docs "github.com/L0G1C06/goportunities/docs"
 )
 
-func initializeRoutes(router *gin.Engine){
+func InitializeRoutes(router *gin.Engine){
 	// Initialize handler (logger and database)
 	handler.InitializeHandler()
 	basePath := "/api/v1"
