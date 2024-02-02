@@ -1,9 +1,0 @@
-jobs:
-  - name: build
-    tasks:
-      - exec:
-          command: sh
-          arguments:
-            - -c
-            - |
-              go run main.go
